@@ -11,7 +11,8 @@ class ArgumentManager {
     
     // Set default values for arguments
     var debugMode = false
-    let availableArguments = ["--debug", "--version"]
+    var interactiveMode = true
+    let availableArguments = ["--debug", "--version", "--interactive"]
     
     init(suppliedArguments: [String]) {
         setArguments(suppliedArguments)
@@ -25,13 +26,16 @@ class ArgumentManager {
                 self.printHelp()
             } else if arg == "--debug" {
                 debugMode.toggle()
+            } else if arg == "--interactive" {
+                interactiveMode.toggle()
             } else if arg == "--version" {
                 print(version_no)
             }
         }
     }
     func printHelp() {
-        print("--debug -> Toggle Debug Mode on and Off")
+        print("--debug -> Toggle Debug Mode on/off")
         print("--version -> Get Application Version")
+        print("--interactive -> Toggle interactive mode on/off")
     }
 }
