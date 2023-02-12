@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct NavigationView: View {
+    
     var body: some View {
+        
         VStack(alignment: .leading){
             Text("Case")
             Text("Triage")
             Text("Analysis")
+            Text("Map")
             Text("Report")
             Text("About")
         }

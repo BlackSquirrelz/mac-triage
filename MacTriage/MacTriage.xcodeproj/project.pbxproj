@@ -13,6 +13,10 @@
 		26020A0E299906C500D9B4AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26020A0D299906C500D9B4AF /* Preview Assets.xcassets */; };
 		26020A162999101700D9B4AF /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A152999101700D9B4AF /* NavigationView.swift */; };
 		26020A18299910A900D9B4AF /* CaseInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A17299910A900D9B4AF /* CaseInformationView.swift */; };
+		26020A1B2999226200D9B4AF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A1A2999226200D9B4AF /* MapView.swift */; };
+		26020A292999290E00D9B4AF /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A282999290E00D9B4AF /* SplashView.swift */; };
+		26020A332999571D00D9B4AF /* MenuItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A322999571D00D9B4AF /* MenuItemRow.swift */; };
+		26020A3829995F4800D9B4AF /* CaseManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A3729995F4800D9B4AF /* CaseManagement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		26020A0F299906C500D9B4AF /* MacTriage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacTriage.entitlements; sourceTree = "<group>"; };
 		26020A152999101700D9B4AF /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		26020A17299910A900D9B4AF /* CaseInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseInformationView.swift; sourceTree = "<group>"; };
+		26020A1A2999226200D9B4AF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		26020A282999290E00D9B4AF /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		26020A322999571D00D9B4AF /* MenuItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemRow.swift; sourceTree = "<group>"; };
+		26020A3729995F4800D9B4AF /* CaseManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseManagement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,9 @@
 				26020A0A299906C500D9B4AF /* Assets.xcassets */,
 				26020A0F299906C500D9B4AF /* MacTriage.entitlements */,
 				26020A0C299906C500D9B4AF /* Preview Content */,
+				26020A222999287100D9B4AF /* Model */,
+				26020A232999287D00D9B4AF /* Resources */,
+				26020A3729995F4800D9B4AF /* CaseManagement.swift */,
 			);
 			path = MacTriage;
 			sourceTree = "<group>";
@@ -76,11 +87,52 @@
 		26020A19299917DE00D9B4AF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				26020A3429995CFA00D9B4AF /* CaseView */,
 				26020A08299906C300D9B4AF /* ContentView.swift */,
 				26020A152999101700D9B4AF /* NavigationView.swift */,
-				26020A17299910A900D9B4AF /* CaseInformationView.swift */,
+				26020A3529995D1400D9B4AF /* Map */,
+				26020A3629995E1800D9B4AF /* helpers */,
+				26020A322999571D00D9B4AF /* MenuItemRow.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		26020A222999287100D9B4AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		26020A232999287D00D9B4AF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		26020A3429995CFA00D9B4AF /* CaseView */ = {
+			isa = PBXGroup;
+			children = (
+				26020A17299910A900D9B4AF /* CaseInformationView.swift */,
+			);
+			path = CaseView;
+			sourceTree = "<group>";
+		};
+		26020A3529995D1400D9B4AF /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				26020A1A2999226200D9B4AF /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		26020A3629995E1800D9B4AF /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				26020A282999290E00D9B4AF /* SplashView.swift */,
+			);
+			path = helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +205,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26020A3829995F4800D9B4AF /* CaseManagement.swift in Sources */,
+				26020A332999571D00D9B4AF /* MenuItemRow.swift in Sources */,
+				26020A292999290E00D9B4AF /* SplashView.swift in Sources */,
 				26020A09299906C300D9B4AF /* ContentView.swift in Sources */,
 				26020A18299910A900D9B4AF /* CaseInformationView.swift in Sources */,
+				26020A1B2999226200D9B4AF /* MapView.swift in Sources */,
 				26020A162999101700D9B4AF /* NavigationView.swift in Sources */,
 				26020A07299906C300D9B4AF /* MacTriageApp.swift in Sources */,
 			);

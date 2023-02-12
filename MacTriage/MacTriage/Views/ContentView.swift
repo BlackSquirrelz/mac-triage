@@ -10,8 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         HStack {
-                NavigationView()
-                CaseInformationView()
+            NavigationView()
+            Divider()
+            CaseInformationView()
         }
     }
 }
