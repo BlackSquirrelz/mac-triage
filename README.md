@@ -41,12 +41,12 @@ The following usecase diagramm illustrates the intended usage of the application
 |6|Source|
 |7|Responsible|BS|BS|BS|BS|BS|BS|BS|BS|BS|BS|BS|BS|
 |8|Description|
-|9|Trigger|
+|9|Trigger|User calls case management from Main Menu|User triggers a new triage from within a case|
 |10|Actors|
-|11|Precondition|
-|12|Postcondition|
-|13|Result|
-|14|Main Scenario|
+|11|Precondition|User needs to start the application, and a case needs to exist for deletion|
+|12|Postcondition|None|
+|13|Result|A. New Case generated, B. Case Selected, C. Existing Case deleted|
+|14|Main Scenario|The user wants to manage the cases, the options are to view, create, delete the case.|A new triage is done|
 |15|Alternative Scenario|
 |16|Exceptional Scenario|
 |17|Qualities|
@@ -54,15 +54,19 @@ The following usecase diagramm illustrates the intended usage of the application
 ## Stories
 The following section contains the user stories.
 
-### Manage Case
-
+### UML 001 - Manage Case
 
 The analyst can create, delete and view a case / investigation.
 
 
 - View Case
+  The application returns a list of available cases in the default directory. If a custom directory was used, the analyst can select this in the file dialog.
+  
 - Delete Case
+  The application provides a function to delete an existing case by providing the path to the case with the file dialog.
 - Create Case
+  The application provides a function to create a case. There must be a case name, and if another directory than the standard one is used, the path to the custom directory.
+
 
 ### Create Triage
 
