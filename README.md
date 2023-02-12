@@ -7,7 +7,7 @@
   - [Background](#background)
   - [Usecases](#usecases)
   - [Stories](#stories)
-    - [Manage Case](#manage-case)
+    - [UML 001 - Manage Case](#uml-001---manage-case)
     - [Create Triage](#create-triage)
     - [Analyse Target System](#analyse-target-system)
     - [Create Report](#create-report)
@@ -59,11 +59,15 @@ The following section contains the user stories.
 The analyst can create, delete and view a case / investigation.
 
 
+![CaseManagementUI](media/CaseManagementUI.png)
+
+
 - View Case
   The application returns a list of available cases in the default directory. If a custom directory was used, the analyst can select this in the file dialog.
   
 - Delete Case
   The application provides a function to delete an existing case by providing the path to the case with the file dialog.
+
 - Create Case
   The application provides a function to create a case. There must be a case name, and if another directory than the standard one is used, the path to the custom directory.
 
@@ -72,8 +76,6 @@ The analyst can create, delete and view a case / investigation.
 
 - Acquire Evidence
 - Process Evidence
-
-
 
 
 ### Analyse Target System
