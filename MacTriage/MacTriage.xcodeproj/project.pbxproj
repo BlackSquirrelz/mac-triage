@@ -11,6 +11,8 @@
 		26020A09299906C300D9B4AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A08299906C300D9B4AF /* ContentView.swift */; };
 		26020A0B299906C500D9B4AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26020A0A299906C500D9B4AF /* Assets.xcassets */; };
 		26020A0E299906C500D9B4AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26020A0D299906C500D9B4AF /* Preview Assets.xcassets */; };
+		26020A162999101700D9B4AF /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A152999101700D9B4AF /* NavigationView.swift */; };
+		26020A18299910A900D9B4AF /* CaseInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A17299910A900D9B4AF /* CaseInformationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		26020A0A299906C500D9B4AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26020A0D299906C500D9B4AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		26020A0F299906C500D9B4AF /* MacTriage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacTriage.entitlements; sourceTree = "<group>"; };
+		26020A152999101700D9B4AF /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		26020A17299910A900D9B4AF /* CaseInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseInformationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,8 @@
 		26020A05299906C300D9B4AF /* MacTriage */ = {
 			isa = PBXGroup;
 			children = (
+				26020A19299917DE00D9B4AF /* Views */,
 				26020A06299906C300D9B4AF /* MacTriageApp.swift */,
-				26020A08299906C300D9B4AF /* ContentView.swift */,
 				26020A0A299906C500D9B4AF /* Assets.xcassets */,
 				26020A0F299906C500D9B4AF /* MacTriage.entitlements */,
 				26020A0C299906C500D9B4AF /* Preview Content */,
@@ -67,6 +71,16 @@
 				26020A0D299906C500D9B4AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		26020A19299917DE00D9B4AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				26020A08299906C300D9B4AF /* ContentView.swift */,
+				26020A152999101700D9B4AF /* NavigationView.swift */,
+				26020A17299910A900D9B4AF /* CaseInformationView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				26020A09299906C300D9B4AF /* ContentView.swift in Sources */,
+				26020A18299910A900D9B4AF /* CaseInformationView.swift in Sources */,
+				26020A162999101700D9B4AF /* NavigationView.swift in Sources */,
 				26020A07299906C300D9B4AF /* MacTriageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +288,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MacTriage/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MacTriage;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,6 +315,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MacTriage/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MacTriage;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
