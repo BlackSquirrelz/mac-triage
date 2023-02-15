@@ -45,9 +45,7 @@ struct CaseInformationView: View {
                         Label("Custodian", systemImage: "person.fill")
                         Spacer()
                         TextField("custodian", text: $custodian)
-                        
                     }
-                    
                 }
             }
             Divider()

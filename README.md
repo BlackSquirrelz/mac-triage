@@ -8,10 +8,15 @@
   - [Usecases](#usecases)
   - [Stories](#stories)
     - [UML 001 - Manage Case](#uml-001---manage-case)
-    - [Create Triage](#create-triage)
-    - [Analyse Target System](#analyse-target-system)
-    - [Create Report](#create-report)
+    - [UML 002 - Create Triage](#uml-002---create-triage)
+    - [UML 003 - Acquire Evidence](#uml-003---acquire-evidence)
+    - [UML 004 -  Process Evidence](#uml-004----process-evidence)
+    - [UML 005 -  Analyse Target System](#uml-005----analyse-target-system)
+    - [UML 00 - Create Report](#uml-00---create-report)
   - [UML Class Diagrams](#uml-class-diagrams)
+  - [Modules](#modules)
+  - [Implemented Functionality](#implemented-functionality)
+  - [Roadmap](#roadmap)
   - [References and Inspiration](#references-and-inspiration)
 ---
 
@@ -72,15 +77,25 @@ The analyst can create, delete and view a case / investigation.
   The application provides a function to create a case. There must be a case name, and if another directory than the standard one is used, the path to the custom directory.
 
 
-### Create Triage
+### UML 002 - Create Triage
 
-- Acquire Evidence
-- Process Evidence
+Set Target for Triage, configuration, settings what to triage based TTP.
 
+### UML 003 - Acquire Evidence
 
-### Analyse Target System
+Acquisition of evidence (Actual Copying of files etc.)
 
-### Create Report
+### UML 004 -  Process Evidence
+
+Parsing evidence using existing modules.
+
+### UML 005 -  Analyse Target System
+
+Presenting the evidence to the user.
+
+### UML 00 - Create Report
+
+Tagged files and evidence can be summarized in a report for the user to print as pdf.
 
 ---
 
@@ -91,6 +106,25 @@ The analyst can create, delete and view a case / investigation.
 ![Class Case and User](media/ClassDiagramm.png)
 
 ---
+
+## Modules
+
+
+
+---
+
+## Implemented Functionality
+
+- Create Case directory at user home.
+
+
+## Roadmap
+
+Whenever I have time I write code... if I have no time I don't write code. 
+
+If you want to support this project, let me know, I would be **happy** to have support.
+
+
 
 ## References and Inspiration
 

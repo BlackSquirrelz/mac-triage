@@ -9,11 +9,14 @@ import Foundation
 
 struct CaseManagement  {
     
-    // Let the user choose a
+    // Get the current directory
     static let currentDirectory = FileManager.default.currentDirectoryPath
+    
     //static let TemporaryCaseDirectory = FileManager.default.temporaryDirectory.appending(path: "\(Date().ISO8601Format().replacingOccurrences(of: ":", with: "_"))-MacTriage")
     static let CaseDirectory = FileManager.default.homeDirectoryForCurrentUser.appending(path: "\(Date().ISO8601Format().replacingOccurrences(of: ":", with: "_"))-MacTriage")
         static let caseFile = CaseDirectory.appending(path: "case.json")
+    
+    // Set path for the case Database
     static let caseDB = CaseDirectory.appending(path: "case.db")
     static let fm = FileManager.default
     
@@ -22,6 +25,7 @@ struct CaseManagement  {
             try fm.createDirectory(at: CaseDirectory, withIntermediateDirectories: true, attributes: nil)
             print("Case created @ \(CaseDirectory.relativePath)")
             CreateDataDirectory()
+            CreateCaseDatabase()
         } catch {
             print(error)
         }
@@ -45,5 +49,12 @@ struct CaseManagement  {
     static func DeleteCaseDirectory() {
         print("Case Deleted... Not really but yeah.")
     }
+    
+    
+    // Function to create the Database @ the case directory
+    static func CreateCaseDatabase() {
+        print("CaseDB Created @ \(caseDB)")
+    }
+    
 }
 
