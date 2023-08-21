@@ -50,8 +50,8 @@ The following usecase diagramm illustrates the intended usage of the application
 |10|Actors|
 |11|Precondition|User needs to start the application, and a case needs to exist for deletion|
 |12|Postcondition|None|
-|13|Result|A. New Case generated, B. Case Selected, C. Existing Case deleted|
-|14|Main Scenario|The user wants to manage the cases, the options are to view, create, delete the case.|A new triage is done|
+|13|Result|A. New Case generated, B. Case Selected, C. Existing Case deleted|Overview page with notable items that may need further investigation|Acquired evidence based on choosen acquisition path|Processed evidence based on acquired evidence|Triaged data with notable items|Report in pdf form|Deleted case|Opened case|Created new case|Closed Case|
+|14|Main Scenario|The user wants to manage the cases, the options are to view, create, delete the case.|A new triage is done|The user can acquire evidence from the targeted Mac depending on the OS and Model number different options are available.|
 |15|Alternative Scenario|
 |16|Exceptional Scenario|
 |17|Qualities|
