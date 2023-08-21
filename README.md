@@ -97,6 +97,11 @@ Presenting information about the target system in a logical form:
 - Overview of System Information
 - Based on the MITRE D3FEND Matrix show relevant artifacts, File, Message, Network, Platform, Identifier, Process and User Behavior.
 
+The following view shows basic information about the system on which the application is running. Further information will be added at a later stage.
+
+![Analysis View](media/AnalysisView_SystemInformation.png)
+
+
 ### UML 00 - Create Report
 
 Tagged files and evidence can be summarized in a report for the user to print as pdf.

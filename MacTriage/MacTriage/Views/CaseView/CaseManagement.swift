@@ -3,10 +3,13 @@
 //  MacTriage
 //
 //  Created by BlackSquirrelz on 12.02.23.
-//
+
+/*Code inspired by @Aftermath
+Copyright 2022 JAMF Software, LLC
+https://github.com/jamf/aftermath/blob/main/LICENSE.md
+*/
 
 import Foundation
-
 struct CaseManagement  {
     
     // Get the current directory

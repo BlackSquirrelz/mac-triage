@@ -17,6 +17,18 @@
 		26020A292999290E00D9B4AF /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A282999290E00D9B4AF /* SplashView.swift */; };
 		26020A332999571D00D9B4AF /* MenuItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A322999571D00D9B4AF /* MenuItemRow.swift */; };
 		26020A3829995F4800D9B4AF /* CaseManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A3729995F4800D9B4AF /* CaseManagement.swift */; };
+		2650A7BA2A93C19200BA18E4 /* SystemInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7B92A93C19200BA18E4 /* SystemInformation.swift */; };
+		2650A7BC2A93C1AA00BA18E4 /* SystemInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7BB2A93C1AA00BA18E4 /* SystemInformationView.swift */; };
+		2650A7C52A93C87700BA18E4 /* UserBehaviourAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7C42A93C87700BA18E4 /* UserBehaviourAnalysisView.swift */; };
+		2650A7C72A93C88900BA18E4 /* ProcessAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7C62A93C88900BA18E4 /* ProcessAnalysisView.swift */; };
+		2650A7C92A93C89B00BA18E4 /* PlatformMonitoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7C82A93C89B00BA18E4 /* PlatformMonitoringView.swift */; };
+		2650A7CB2A93C8C000BA18E4 /* NetworkAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7CA2A93C8C000BA18E4 /* NetworkAnalysisView.swift */; };
+		2650A7CD2A93C8D000BA18E4 /* MessageAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7CC2A93C8D000BA18E4 /* MessageAnalysisView.swift */; };
+		2650A7CF2A93C8DB00BA18E4 /* IdentifierAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7CE2A93C8DB00BA18E4 /* IdentifierAnalysisView.swift */; };
+		2650A7D12A93C95000BA18E4 /* helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7D02A93C95000BA18E4 /* helpers.swift */; };
+		2650A7D62A93D42600BA18E4 /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7D52A93D42600BA18E4 /* AnalysisView.swift */; };
+		2650A7D82A93D51700BA18E4 /* FileAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7D72A93D51700BA18E4 /* FileAnalysisView.swift */; };
+		2650A7DB2A93FC3900BA18E4 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7DA2A93FC3900BA18E4 /* Case.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +44,18 @@
 		26020A282999290E00D9B4AF /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		26020A322999571D00D9B4AF /* MenuItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemRow.swift; sourceTree = "<group>"; };
 		26020A3729995F4800D9B4AF /* CaseManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseManagement.swift; sourceTree = "<group>"; };
+		2650A7B92A93C19200BA18E4 /* SystemInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInformation.swift; sourceTree = "<group>"; };
+		2650A7BB2A93C1AA00BA18E4 /* SystemInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInformationView.swift; sourceTree = "<group>"; };
+		2650A7C42A93C87700BA18E4 /* UserBehaviourAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBehaviourAnalysisView.swift; sourceTree = "<group>"; };
+		2650A7C62A93C88900BA18E4 /* ProcessAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessAnalysisView.swift; sourceTree = "<group>"; };
+		2650A7C82A93C89B00BA18E4 /* PlatformMonitoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformMonitoringView.swift; sourceTree = "<group>"; };
+		2650A7CA2A93C8C000BA18E4 /* NetworkAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAnalysisView.swift; sourceTree = "<group>"; };
+		2650A7CC2A93C8D000BA18E4 /* MessageAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageAnalysisView.swift; sourceTree = "<group>"; };
+		2650A7CE2A93C8DB00BA18E4 /* IdentifierAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifierAnalysisView.swift; sourceTree = "<group>"; };
+		2650A7D02A93C95000BA18E4 /* helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpers.swift; sourceTree = "<group>"; };
+		2650A7D52A93D42600BA18E4 /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
+		2650A7D72A93D51700BA18E4 /* FileAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileAnalysisView.swift; sourceTree = "<group>"; };
+		2650A7DA2A93FC3900BA18E4 /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +95,6 @@
 				26020A0C299906C500D9B4AF /* Preview Content */,
 				26020A222999287100D9B4AF /* Model */,
 				26020A232999287D00D9B4AF /* Resources */,
-				26020A3729995F4800D9B4AF /* CaseManagement.swift */,
 			);
 			path = MacTriage;
 			sourceTree = "<group>";
@@ -87,6 +110,7 @@
 		26020A19299917DE00D9B4AF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2650A7B82A93C17400BA18E4 /* Analysis */,
 				26020A3429995CFA00D9B4AF /* CaseView */,
 				26020A08299906C300D9B4AF /* ContentView.swift */,
 				26020A152999101700D9B4AF /* NavigationView.swift */,
@@ -100,6 +124,7 @@
 		26020A222999287100D9B4AF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2650A7DA2A93FC3900BA18E4 /* Case.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -114,6 +139,7 @@
 		26020A3429995CFA00D9B4AF /* CaseView */ = {
 			isa = PBXGroup;
 			children = (
+				26020A3729995F4800D9B4AF /* CaseManagement.swift */,
 				26020A17299910A900D9B4AF /* CaseInformationView.swift */,
 			);
 			path = CaseView;
@@ -131,8 +157,90 @@
 			isa = PBXGroup;
 			children = (
 				26020A282999290E00D9B4AF /* SplashView.swift */,
+				2650A7D02A93C95000BA18E4 /* helpers.swift */,
 			);
 			path = helpers;
+			sourceTree = "<group>";
+		};
+		2650A7B82A93C17400BA18E4 /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				2650A7D42A93D41000BA18E4 /* SystemInformation */,
+				2650A7C32A93C2BC00BA18E4 /* UserBehaviorAnalysis */,
+				2650A7C22A93C2B000BA18E4 /* ProcessAnalysis */,
+				2650A7C12A93C29F00BA18E4 /* PlatformMonitoring */,
+				2650A7C02A93C29400BA18E4 /* NetworkTrafficAnalysis */,
+				2650A7BF2A93C28800BA18E4 /* MessageAnalysis */,
+				2650A7BE2A93C27000BA18E4 /* IdentifierAnalysis */,
+				2650A7BD2A93C25400BA18E4 /* FileAnalysis */,
+				2650A7D52A93D42600BA18E4 /* AnalysisView.swift */,
+			);
+			path = Analysis;
+			sourceTree = "<group>";
+		};
+		2650A7BD2A93C25400BA18E4 /* FileAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				2650A7D72A93D51700BA18E4 /* FileAnalysisView.swift */,
+			);
+			path = FileAnalysis;
+			sourceTree = "<group>";
+		};
+		2650A7BE2A93C27000BA18E4 /* IdentifierAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				2650A7CE2A93C8DB00BA18E4 /* IdentifierAnalysisView.swift */,
+			);
+			path = IdentifierAnalysis;
+			sourceTree = "<group>";
+		};
+		2650A7BF2A93C28800BA18E4 /* MessageAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				2650A7CC2A93C8D000BA18E4 /* MessageAnalysisView.swift */,
+			);
+			path = MessageAnalysis;
+			sourceTree = "<group>";
+		};
+		2650A7C02A93C29400BA18E4 /* NetworkTrafficAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				2650A7CA2A93C8C000BA18E4 /* NetworkAnalysisView.swift */,
+			);
+			path = NetworkTrafficAnalysis;
+			sourceTree = "<group>";
+		};
+		2650A7C12A93C29F00BA18E4 /* PlatformMonitoring */ = {
+			isa = PBXGroup;
+			children = (
+				2650A7C82A93C89B00BA18E4 /* PlatformMonitoringView.swift */,
+			);
+			path = PlatformMonitoring;
+			sourceTree = "<group>";
+		};
+		2650A7C22A93C2B000BA18E4 /* ProcessAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				2650A7C62A93C88900BA18E4 /* ProcessAnalysisView.swift */,
+			);
+			path = ProcessAnalysis;
+			sourceTree = "<group>";
+		};
+		2650A7C32A93C2BC00BA18E4 /* UserBehaviorAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				2650A7C42A93C87700BA18E4 /* UserBehaviourAnalysisView.swift */,
+			);
+			path = UserBehaviorAnalysis;
+			sourceTree = "<group>";
+		};
+		2650A7D42A93D41000BA18E4 /* SystemInformation */ = {
+			isa = PBXGroup;
+			children = (
+				2650A7B92A93C19200BA18E4 /* SystemInformation.swift */,
+				2650A7BB2A93C1AA00BA18E4 /* SystemInformationView.swift */,
+			);
+			path = SystemInformation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +271,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					26020A02299906C300D9B4AF = {
 						CreatedOnToolsVersion = 14.2;
@@ -205,14 +313,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2650A7C52A93C87700BA18E4 /* UserBehaviourAnalysisView.swift in Sources */,
 				26020A3829995F4800D9B4AF /* CaseManagement.swift in Sources */,
 				26020A332999571D00D9B4AF /* MenuItemRow.swift in Sources */,
+				2650A7D12A93C95000BA18E4 /* helpers.swift in Sources */,
+				2650A7C72A93C88900BA18E4 /* ProcessAnalysisView.swift in Sources */,
+				2650A7C92A93C89B00BA18E4 /* PlatformMonitoringView.swift in Sources */,
 				26020A292999290E00D9B4AF /* SplashView.swift in Sources */,
 				26020A09299906C300D9B4AF /* ContentView.swift in Sources */,
 				26020A18299910A900D9B4AF /* CaseInformationView.swift in Sources */,
+				2650A7BA2A93C19200BA18E4 /* SystemInformation.swift in Sources */,
+				2650A7CF2A93C8DB00BA18E4 /* IdentifierAnalysisView.swift in Sources */,
+				2650A7CB2A93C8C000BA18E4 /* NetworkAnalysisView.swift in Sources */,
+				2650A7BC2A93C1AA00BA18E4 /* SystemInformationView.swift in Sources */,
+				2650A7D82A93D51700BA18E4 /* FileAnalysisView.swift in Sources */,
 				26020A1B2999226200D9B4AF /* MapView.swift in Sources */,
 				26020A162999101700D9B4AF /* NavigationView.swift in Sources */,
 				26020A07299906C300D9B4AF /* MacTriageApp.swift in Sources */,
+				2650A7DB2A93FC3900BA18E4 /* Case.swift in Sources */,
+				2650A7D62A93D42600BA18E4 /* AnalysisView.swift in Sources */,
+				2650A7CD2A93C8D000BA18E4 /* MessageAnalysisView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +372,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -312,6 +433,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -341,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MacTriage/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -368,6 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MacTriage/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

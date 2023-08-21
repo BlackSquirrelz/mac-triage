@@ -7,11 +7,16 @@
 
 import SwiftUI
 
+/*@State private var navigationViews = ["Case", "Analysis"]
+
 struct NavigationView: View {
     
     var body: some View {
+        NavigationSplitView {
+            List(navigationViews)
         
-        VStack(alignment: .leading){
+        
+        /*VStack(alignment: .leading){
             Text("Case")
             Text("Triage")
             Text("Analysis")
@@ -19,7 +24,7 @@ struct NavigationView: View {
             Text("Report")
             Text("About")
         }
-        .padding()
+        .padding()*/
     }
 }
 
@@ -27,4 +32,4 @@ struct NavigationView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView()
     }
-}
+}*/
