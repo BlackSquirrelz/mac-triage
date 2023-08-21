@@ -80,10 +80,12 @@ The analyst can create, delete and view a case / investigation.
 ### UML 002 - Create Triage
 
 Set Target for Triage, configuration, settings what to triage based TTP.
+Quick overiew on the artifacts on the file system, highlighting notable stuff.
 
 ### UML 003 - Acquire Evidence
 
 Acquisition of evidence (Actual Copying of files etc.)
+Creates a copy of the relevant artifacts on an external drive, along with macOS Forensics best practice creates a .dmg file image.
 
 ### UML 004 -  Process Evidence
 
@@ -91,7 +93,9 @@ Parsing evidence using existing modules.
 
 ### UML 005 -  Analyse Target System
 
-Presenting the evidence to the user.
+Presenting information about the target system in a logical form:
+- Overview of System Information
+- Based on the MITRE D3FEND Matrix show relevant artifacts, File, Message, Network, Platform, Identifier, Process and User Behavior.
 
 ### UML 00 - Create Report
 
@@ -134,3 +138,5 @@ If you want to support this project, let me know, I would be **happy** to have s
 4. [Truetree](https://github.com/themittenmac/TrueTree)
 5. [macOS-Locations Scraper](https://github.com/mac4n6/Mac-Locations-Scraper)
 6. [OSX-Auditor](https://github.com/jipegit/OSXAuditor)
+7. [MITRE D3FEND Matrix](https://d3fend.mitre.org/)
+8. [MITRE ATT&CK Matrix](https://attack.mitre.org/matrices/enterprise/macos/)
