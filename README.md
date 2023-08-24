@@ -1,10 +1,5 @@
 # macOS - Triage Application
 
-ifdef::status[]
-image:https://badgen.net/badge/icon/apple?icon=apple&label[link="https://www.apple.com/"]
-image:https://badgen.net/badge/icon/13.0?icon=apple&label[link="https://www.apple.com/macos"]
-endif::[]
-
 ## Table of Contents
 
 - [macOS - Triage Application](#macos---triage-application)
