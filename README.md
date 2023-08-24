@@ -1,5 +1,7 @@
 # macOS - Triage Application
 
+image:https://badgen.net/badge/icon/apple?icon=apple&label[link="https://www.apple.com/"]
+
 ## Table of Contents
 
 - [macOS - Triage Application](#macos---triage-application)
