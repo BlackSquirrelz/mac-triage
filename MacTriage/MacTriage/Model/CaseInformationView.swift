@@ -17,7 +17,8 @@ struct CaseInformationView: View {
     @State private var createTempDir = false
     @State private var caseFiles: String = "Case File Directory"
     @State private var evidenceFiles: String = "Evidence File Directory"
-    
+    @State var filename = "Filename"
+    @State private var evidenceType:String = "Image"
     
     
     var body: some View {
@@ -88,14 +89,27 @@ struct CaseInformationView: View {
                         Label("Evidence Directory", systemImage: "building.columns.fill")
                         Spacer()
                         TextField("evidence_directory", text: $evidenceFiles)
+                        Picker(selection: $evidenceType, label: Text("Type:")) {
+                            Text("Image")
+                            Text("Folder")
+                        }.pickerStyle(RadioGroupPickerStyle())
                     }
                 }
             }
             Spacer()
         
             HStack {
-                Button("Create", action: CaseManagement.CreateCaseDirectory)
-                Button("Select", action: CaseManagement.SelectCaseDirectory)
+                Button("Create") {
+                    //var baseDirectory = URL(fileURLWithPath: "/tmp", isDirectory: true)
+                    let panel = NSOpenPanel()
+                    panel.allowsMultipleSelection = false
+                    panel.canChooseDirectories = true
+                    panel.canChooseFiles = false
+                   /* if panel.runModal() == .OK {
+                        baseDirectory = panel.url?.absoluteURL ?? default "/tmp"
+                    }*/
+                }
+                Button("Select", action: SelectFileDialog)
                 Button("Delete", action: CaseManagement.DeleteCaseDirectory)
             }
         }
@@ -106,4 +120,16 @@ struct CaseInformationView_Previews: PreviewProvider {
     static var previews: some View {
         CaseInformationView()
     }
+}
+
+func SelectFileDialog() -> Void{
+    var filename =  "Filename"
+    let panel = NSOpenPanel()
+    panel.allowsMultipleSelection = false
+    panel.canChooseDirectories = false
+    if panel.runModal() == .OK {
+        filename = panel.url?.lastPathComponent ?? "<none>"
+    }
+    print("You selected \(filename)")
+    
 }

@@ -9,14 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack {
-            //NavigationView()
+            ActionNavigationView()
             Divider()
-            //CaseInformationView()
-            AnalysisView()
+                CaseSelectorView()
+        //CaseInformationView()
         }
     }
-}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

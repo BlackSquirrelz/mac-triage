@@ -11,12 +11,13 @@
 		26020A09299906C300D9B4AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A08299906C300D9B4AF /* ContentView.swift */; };
 		26020A0B299906C500D9B4AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26020A0A299906C500D9B4AF /* Assets.xcassets */; };
 		26020A0E299906C500D9B4AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26020A0D299906C500D9B4AF /* Preview Assets.xcassets */; };
-		26020A162999101700D9B4AF /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A152999101700D9B4AF /* NavigationView.swift */; };
+		26020A162999101700D9B4AF /* ActionNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A152999101700D9B4AF /* ActionNavigationView.swift */; };
 		26020A18299910A900D9B4AF /* CaseInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A17299910A900D9B4AF /* CaseInformationView.swift */; };
 		26020A1B2999226200D9B4AF /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A1A2999226200D9B4AF /* MapView.swift */; };
 		26020A292999290E00D9B4AF /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A282999290E00D9B4AF /* SplashView.swift */; };
-		26020A332999571D00D9B4AF /* MenuItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A322999571D00D9B4AF /* MenuItemRow.swift */; };
+		26020A332999571D00D9B4AF /* CaseItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A322999571D00D9B4AF /* CaseItemRow.swift */; };
 		26020A3829995F4800D9B4AF /* CaseManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26020A3729995F4800D9B4AF /* CaseManagement.swift */; };
+		2641D92B2A954948002395CC /* navigationMenu.json in Resources */ = {isa = PBXBuildFile; fileRef = 2641D92A2A954948002395CC /* navigationMenu.json */; };
 		2650A7BA2A93C19200BA18E4 /* SystemInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7B92A93C19200BA18E4 /* SystemInformation.swift */; };
 		2650A7BC2A93C1AA00BA18E4 /* SystemInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7BB2A93C1AA00BA18E4 /* SystemInformationView.swift */; };
 		2650A7C52A93C87700BA18E4 /* UserBehaviourAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7C42A93C87700BA18E4 /* UserBehaviourAnalysisView.swift */; };
@@ -29,6 +30,8 @@
 		2650A7D62A93D42600BA18E4 /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7D52A93D42600BA18E4 /* AnalysisView.swift */; };
 		2650A7D82A93D51700BA18E4 /* FileAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7D72A93D51700BA18E4 /* FileAnalysisView.swift */; };
 		2650A7DB2A93FC3900BA18E4 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7DA2A93FC3900BA18E4 /* Case.swift */; };
+		26890A702AA65A7100CEA14A /* CaseSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26890A6F2AA65A7100CEA14A /* CaseSelectorView.swift */; };
+		26890A722AA66D0E00CEA14A /* case_collection.json in Resources */ = {isa = PBXBuildFile; fileRef = 26890A712AA661CA00CEA14A /* case_collection.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,12 +41,13 @@
 		26020A0A299906C500D9B4AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26020A0D299906C500D9B4AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		26020A0F299906C500D9B4AF /* MacTriage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacTriage.entitlements; sourceTree = "<group>"; };
-		26020A152999101700D9B4AF /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		26020A152999101700D9B4AF /* ActionNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionNavigationView.swift; sourceTree = "<group>"; };
 		26020A17299910A900D9B4AF /* CaseInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseInformationView.swift; sourceTree = "<group>"; };
 		26020A1A2999226200D9B4AF /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		26020A282999290E00D9B4AF /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
-		26020A322999571D00D9B4AF /* MenuItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemRow.swift; sourceTree = "<group>"; };
+		26020A322999571D00D9B4AF /* CaseItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseItemRow.swift; sourceTree = "<group>"; };
 		26020A3729995F4800D9B4AF /* CaseManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseManagement.swift; sourceTree = "<group>"; };
+		2641D92A2A954948002395CC /* navigationMenu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = navigationMenu.json; sourceTree = "<group>"; };
 		2650A7B92A93C19200BA18E4 /* SystemInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInformation.swift; sourceTree = "<group>"; };
 		2650A7BB2A93C1AA00BA18E4 /* SystemInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemInformationView.swift; sourceTree = "<group>"; };
 		2650A7C42A93C87700BA18E4 /* UserBehaviourAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBehaviourAnalysisView.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		2650A7D52A93D42600BA18E4 /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
 		2650A7D72A93D51700BA18E4 /* FileAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileAnalysisView.swift; sourceTree = "<group>"; };
 		2650A7DA2A93FC3900BA18E4 /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
+		26890A6F2AA65A7100CEA14A /* CaseSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseSelectorView.swift; sourceTree = "<group>"; };
+		26890A712AA661CA00CEA14A /* case_collection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = case_collection.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,7 @@
 			children = (
 				26020A19299917DE00D9B4AF /* Views */,
 				26020A06299906C300D9B4AF /* MacTriageApp.swift */,
+				26890A712AA661CA00CEA14A /* case_collection.json */,
 				26020A0A299906C500D9B4AF /* Assets.xcassets */,
 				26020A0F299906C500D9B4AF /* MacTriage.entitlements */,
 				26020A0C299906C500D9B4AF /* Preview Content */,
@@ -110,13 +117,12 @@
 		26020A19299917DE00D9B4AF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				26020A3629995E1800D9B4AF /* helpers */,
 				2650A7B82A93C17400BA18E4 /* Analysis */,
 				26020A3429995CFA00D9B4AF /* CaseView */,
 				26020A08299906C300D9B4AF /* ContentView.swift */,
-				26020A152999101700D9B4AF /* NavigationView.swift */,
+				26020A152999101700D9B4AF /* ActionNavigationView.swift */,
 				26020A3529995D1400D9B4AF /* Map */,
-				26020A3629995E1800D9B4AF /* helpers */,
-				26020A322999571D00D9B4AF /* MenuItemRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -124,6 +130,9 @@
 		26020A222999287100D9B4AF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				26020A17299910A900D9B4AF /* CaseInformationView.swift */,
+				26020A3729995F4800D9B4AF /* CaseManagement.swift */,
+				2650A7B92A93C19200BA18E4 /* SystemInformation.swift */,
 				2650A7DA2A93FC3900BA18E4 /* Case.swift */,
 			);
 			path = Model;
@@ -132,6 +141,7 @@
 		26020A232999287D00D9B4AF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2641D92A2A954948002395CC /* navigationMenu.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -139,8 +149,8 @@
 		26020A3429995CFA00D9B4AF /* CaseView */ = {
 			isa = PBXGroup;
 			children = (
-				26020A3729995F4800D9B4AF /* CaseManagement.swift */,
-				26020A17299910A900D9B4AF /* CaseInformationView.swift */,
+				26020A322999571D00D9B4AF /* CaseItemRow.swift */,
+				26890A6F2AA65A7100CEA14A /* CaseSelectorView.swift */,
 			);
 			path = CaseView;
 			sourceTree = "<group>";
@@ -237,7 +247,6 @@
 		2650A7D42A93D41000BA18E4 /* SystemInformation */ = {
 			isa = PBXGroup;
 			children = (
-				2650A7B92A93C19200BA18E4 /* SystemInformation.swift */,
 				2650A7BB2A93C1AA00BA18E4 /* SystemInformationView.swift */,
 			);
 			path = SystemInformation;
@@ -301,7 +310,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26890A722AA66D0E00CEA14A /* case_collection.json in Resources */,
 				26020A0E299906C500D9B4AF /* Preview Assets.xcassets in Resources */,
+				2641D92B2A954948002395CC /* navigationMenu.json in Resources */,
 				26020A0B299906C500D9B4AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,7 +326,7 @@
 			files = (
 				2650A7C52A93C87700BA18E4 /* UserBehaviourAnalysisView.swift in Sources */,
 				26020A3829995F4800D9B4AF /* CaseManagement.swift in Sources */,
-				26020A332999571D00D9B4AF /* MenuItemRow.swift in Sources */,
+				26020A332999571D00D9B4AF /* CaseItemRow.swift in Sources */,
 				2650A7D12A93C95000BA18E4 /* helpers.swift in Sources */,
 				2650A7C72A93C88900BA18E4 /* ProcessAnalysisView.swift in Sources */,
 				2650A7C92A93C89B00BA18E4 /* PlatformMonitoringView.swift in Sources */,
@@ -328,8 +339,9 @@
 				2650A7BC2A93C1AA00BA18E4 /* SystemInformationView.swift in Sources */,
 				2650A7D82A93D51700BA18E4 /* FileAnalysisView.swift in Sources */,
 				26020A1B2999226200D9B4AF /* MapView.swift in Sources */,
-				26020A162999101700D9B4AF /* NavigationView.swift in Sources */,
+				26020A162999101700D9B4AF /* ActionNavigationView.swift in Sources */,
 				26020A07299906C300D9B4AF /* MacTriageApp.swift in Sources */,
+				26890A702AA65A7100CEA14A /* CaseSelectorView.swift in Sources */,
 				2650A7DB2A93FC3900BA18E4 /* Case.swift in Sources */,
 				2650A7D62A93D42600BA18E4 /* AnalysisView.swift in Sources */,
 				2650A7CD2A93C8D000BA18E4 /* MessageAnalysisView.swift in Sources */,
@@ -460,11 +472,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MacTriage/MacTriage.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MacTriage/Preview Content\"";
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = MacTriage;
@@ -488,11 +502,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MacTriage/MacTriage.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MacTriage/Preview Content\"";
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = MacTriage;

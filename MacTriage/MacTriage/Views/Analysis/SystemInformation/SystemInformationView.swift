@@ -14,6 +14,7 @@ let systemVersion = ProcessInfo.processInfo.operatingSystemVersionString
 var physicalMemory = ProcessInfo.processInfo.physicalMemory // Amount of Physical Memory in Bytes
 let lowPowerModeEnable = ProcessInfo.processInfo.isLowPowerModeEnabled
 var systemUpTime = ProcessInfo.processInfo.systemUptime
+let command = "/usr/bin/sudo defaults read /Library/Preferences/com.apple.SoftwareUpdate"
 
 struct SystemInformationView: View {
     var body: some View {
@@ -25,6 +26,7 @@ struct SystemInformationView: View {
             Text("Physical Memory: \(convertBytesToGb(noBytes: physicalMemory))")
             //Text("Low Power Mode: \(lowPowerModeEnable)")
             Text("System Uptime: \(convertTimeIntervalToHours(noSeconds: systemUpTime))")
+            Text("Quarantine Files:\n\(getQuarantineFiles())")
         }
     }
 }

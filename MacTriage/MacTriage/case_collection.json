@@ -1,0 +1,52 @@
+[{
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A66",
+        "name": "Case One",
+        "synopsis": "I am a case",
+        "details": [{
+            "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+            "start": "2023-08-01",
+            "end": "2023-08-01",
+            "description": "Bliblablup",
+            "custodian": "someone that I used to know",
+            "analyst": "BlackSquirrelz",
+            "email": ["mail@mail.com"],
+            "organisation": "Something",
+            "directory": "C:\\Users\\",
+            "evidence": "ABC:"
+        }]
+    },
+    {
+        "id": "36A7CC40-19C1-48E5-BCD8-3B42D43BEAEE",
+        "name": "Case Two",
+        "synopsis": "I am a second case",
+        "details": [{
+            "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+            "start": "2023-08-01",
+            "end": "2023-08-01",
+            "description": "Bliblablup",
+            "custodian": "someone that I used to know",
+            "analyst": "BlackSquirrelz",
+            "email": ["mail@mail.com"],
+            "organisation": "Something",
+            "directory": "C:\\Users\\",
+            "evidence": "ABC:"
+        }]
+    },
+    {
+        "id": "CFB8C2DB-3479-4A10-92FA-3D2A2D5324FB",
+        "name": "Case Three",
+        "synopsis": "I am the third case",
+        "details": [{
+            "id": "36A7CC40-18C1-48E4-BCD8-3B42D43BEAEE",
+            "start": "2023-08-01",
+            "end": "2023-08-01",
+            "description": "Bliblablup",
+            "custodian": "someone that I used to know",
+            "analyst": "BlackSquirrelz",
+            "email": ["mail@mail.com"],
+            "organisation": "Something",
+            "directory": "C:\\Users\\",
+            "evidence": "ABC:"
+        }]
+    }
+]

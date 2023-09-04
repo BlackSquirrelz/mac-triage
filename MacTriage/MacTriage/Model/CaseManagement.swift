@@ -17,7 +17,7 @@ struct CaseManagement  {
     
     //static let TemporaryCaseDirectory = FileManager.default.temporaryDirectory.appending(path: "\(Date().ISO8601Format().replacingOccurrences(of: ":", with: "_"))-MacTriage")
     static let CaseDirectory = FileManager.default.homeDirectoryForCurrentUser.appending(path: "\(Date().ISO8601Format().replacingOccurrences(of: ":", with: "_"))-MacTriage")
-        static let caseFile = CaseDirectory.appending(path: "case.json")
+    static let caseFile = CaseDirectory.appending(path: "case.json")
     
     // Set path for the case Database
     static let caseDB = CaseDirectory.appending(path: "case.db")
@@ -26,6 +26,7 @@ struct CaseManagement  {
     static func CreateCaseDirectory() {
         do {
             try fm.createDirectory(at: CaseDirectory, withIntermediateDirectories: true, attributes: nil)
+            
             print("Case created @ \(CaseDirectory.relativePath)")
             CreateDataDirectory()
             CreateCaseDatabase()
@@ -54,10 +55,23 @@ struct CaseManagement  {
     }
     
     
+    
     // Function to create the Database @ the case directory
     static func CreateCaseDatabase() {
-        print("CaseDB Created @ \(caseDB)")
+        print("CaseDB Created @ \(caseDB) @ \(CaseDirectory)")
     }
+    
+    static func CreateCaseFile() {
+        print("Creating Case File @ \(CaseDirectory)")
+    }
+    
+    static func ReadCaseInformation(case: URL) {
+        print("Reading Case Information)")
+        
+        
+        
+    }
+    
     
 }
 

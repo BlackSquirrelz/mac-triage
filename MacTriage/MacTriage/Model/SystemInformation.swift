@@ -28,3 +28,13 @@ func systemInformation(saveFile: URL){
     
     addTextToFile(atUrl: saveFile, text: "## SystemInformation:\nHostname:\t\(hostname)\nUsername:\t\(userName)\nFull Name:\t\(fullName)\nOS Version:\t\(systemVersion)\nPhysical Memory:\t\(physicalMemory) GB\nLow Power Mode:\t\(lowPowerModeEnable)\nSystem Uptime:\t\(systemUpTime) hours \n---\n")
 }
+
+// Get applications with the flag 01c1 or 0181 from the Appplications Directory.
+//TODO: Display these in the System information View? Tab in the Analysis View
+// May or may not return any string, so this should probably be an optional string.
+func getQuarantineFiles() -> String{
+    let command = "xattr -l /Applications/*app | grep '(01c1|0181)"
+    let result = shell(command)
+    print("These are the Apps that have the 01c1 or 0181 flags:\n\(result)")
+    return result
+}

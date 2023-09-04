@@ -1,5 +1,5 @@
 //
-//  MenuItem.swift
+//  CaseItemRow.swift
 //  MacTriage
 //
 //  Created by BlackSquirrelz on 12.02.23.
@@ -7,17 +7,18 @@
 
 import SwiftUI
 
-struct MenuItemRow: View {
+struct CaseItemRow: View {
     
-    let menuItems = ["Case", "Triage", "Analysis", "Map", "Report","About"]
+    let caseItems = ["Case One - Dynamic", "Case Two  - Dynamic", "Case Three - Dynamic"]
     
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct MenuItemRow_Previews: PreviewProvider {
+struct CaseItemRow_Previews: PreviewProvider {
     static var previews: some View {
-        MenuItemRow()
+        CaseItemRow()
     }
 }
+
