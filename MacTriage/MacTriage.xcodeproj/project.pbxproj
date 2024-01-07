@@ -32,6 +32,8 @@
 		2650A7DB2A93FC3900BA18E4 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2650A7DA2A93FC3900BA18E4 /* Case.swift */; };
 		26890A702AA65A7100CEA14A /* CaseSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26890A6F2AA65A7100CEA14A /* CaseSelectorView.swift */; };
 		26890A722AA66D0E00CEA14A /* case_collection.json in Resources */ = {isa = PBXBuildFile; fileRef = 26890A712AA661CA00CEA14A /* case_collection.json */; };
+		26FE65952AB64293002C15C1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE65942AB64293002C15C1 /* MainView.swift */; };
+		26FE65972AB644C6002C15C1 /* SideListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE65962AB644C6002C15C1 /* SideListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,8 @@
 		2650A7DA2A93FC3900BA18E4 /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
 		26890A6F2AA65A7100CEA14A /* CaseSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseSelectorView.swift; sourceTree = "<group>"; };
 		26890A712AA661CA00CEA14A /* case_collection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = case_collection.json; sourceTree = "<group>"; };
+		26FE65942AB64293002C15C1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		26FE65962AB644C6002C15C1 /* SideListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 				26020A08299906C300D9B4AF /* ContentView.swift */,
 				26020A152999101700D9B4AF /* ActionNavigationView.swift */,
 				26020A3529995D1400D9B4AF /* Map */,
+				26FE65942AB64293002C15C1 /* MainView.swift */,
+				26FE65962AB644C6002C15C1 /* SideListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -331,6 +337,7 @@
 				2650A7C72A93C88900BA18E4 /* ProcessAnalysisView.swift in Sources */,
 				2650A7C92A93C89B00BA18E4 /* PlatformMonitoringView.swift in Sources */,
 				26020A292999290E00D9B4AF /* SplashView.swift in Sources */,
+				26FE65952AB64293002C15C1 /* MainView.swift in Sources */,
 				26020A09299906C300D9B4AF /* ContentView.swift in Sources */,
 				26020A18299910A900D9B4AF /* CaseInformationView.swift in Sources */,
 				2650A7BA2A93C19200BA18E4 /* SystemInformation.swift in Sources */,
@@ -344,6 +351,7 @@
 				26890A702AA65A7100CEA14A /* CaseSelectorView.swift in Sources */,
 				2650A7DB2A93FC3900BA18E4 /* Case.swift in Sources */,
 				2650A7D62A93D42600BA18E4 /* AnalysisView.swift in Sources */,
+				26FE65972AB644C6002C15C1 /* SideListView.swift in Sources */,
 				2650A7CD2A93C8D000BA18E4 /* MessageAnalysisView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

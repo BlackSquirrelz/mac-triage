@@ -14,7 +14,9 @@ struct ActionNavigationView: View {
             //ForEach (cases) { item in
             //Text(item.name)
             List{
-                Text("Case")
+                CaseSelectorView().badge(2).tabItem{
+                    Label("Cases", systemImage: "")
+                }
                 Text("Triage")
                 Text("Analysis")
                 Text("Map")

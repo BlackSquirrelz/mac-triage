@@ -105,9 +105,6 @@ struct CaseInformationView: View {
                     panel.allowsMultipleSelection = false
                     panel.canChooseDirectories = true
                     panel.canChooseFiles = false
-                   /* if panel.runModal() == .OK {
-                        baseDirectory = panel.url?.absoluteURL ?? default "/tmp"
-                    }*/
                 }
                 Button("Select", action: SelectFileDialog)
                 Button("Delete", action: CaseManagement.DeleteCaseDirectory)

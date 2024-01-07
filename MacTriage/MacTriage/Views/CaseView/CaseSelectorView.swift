@@ -10,12 +10,12 @@ import SwiftUI
 struct CaseSelectorView: View {
     var body: some View {
         NavigationView {
-            List {
-                ForEach(cases) { item in
-                    Section(item.name) {
-                        Text("This is \(item.name) - \(item.synopsis)")
-                        ForEach(item.details) { detail in
-                            Text("Custodian: \(detail.custodian)\tStart Date: \(detail.start)\tEnd Date: \(detail.end)")
+            VStack{
+                List {
+                    ForEach(cases) { section in
+                        Section(header: Text(section.name).font(.headline)){
+                            ForEach(section.details) { detail in
+                                CaseItemRow(item: detail)                           }
                         }
                     }
                 }

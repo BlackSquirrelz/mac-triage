@@ -39,3 +39,4 @@ func saveCase(caseDirectory: URL, caseData: [String]) {
         print("An error occured writing \(jsonString) to \(caseJSON)")
     }
 }
+

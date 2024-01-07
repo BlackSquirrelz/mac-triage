@@ -5,6 +5,8 @@
 - [macOS - Triage Application](#macos---triage-application)
   - [Table of Contents](#table-of-contents)
   - [Background](#background)
+  - [Roadmap](#roadmap)
+  - [Requirements and Documentation](#requirements-and-documentation)
   - [Usecases](#usecases)
   - [Stories](#stories)
     - [UML 001 - Manage Case](#uml-001---manage-case)
@@ -16,8 +18,9 @@
   - [UML Class Diagrams](#uml-class-diagrams)
   - [Modules](#modules)
   - [Implemented Functionality](#implemented-functionality)
-  - [Roadmap](#roadmap)
+  - [Roadmap](#roadmap-1)
   - [References and Inspiration](#references-and-inspiration)
+
 ---
 
 ## Background
@@ -25,10 +28,20 @@
 This is an application in development to create, manage, analyse and report on macOS Digital Forensics and Incident Reponse Cases.
 It is a replacement for my previous tool NIDABA, since python is no longer natively installed on macOS Systems. Therefore porting, respectively newly creating an application in Swift.
 
+## Roadmap
+
+2023 - Learning Swift and macOS Development
+2024 - First Release
+
+## Requirements and Documentation
+
+Requirements are gathered in the [Requirements](Requirements.md) file.
+Documentation is done in the [Documentation](Documentation.md) file.
+
+
 ---
 
 ## Usecases
-
 
 The following usecase diagramm illustrates the intended usage of the application.
 

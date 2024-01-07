@@ -19,7 +19,7 @@ struct User {
 struct MacTriageApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
